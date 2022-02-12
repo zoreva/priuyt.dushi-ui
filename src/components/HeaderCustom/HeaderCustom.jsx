@@ -13,8 +13,9 @@ export const HeaderCustom = () => {
     return (
         <HeaderStyled className='header'>
             <div className='header__logo'>
-                <Link to='/'>
+                <Link to='/' style={{position: 'relative'}}>
                     <img src={logoPng} alt='Приют души' className='header__logo_img' />
+                    <div style={{position: 'absolute', top: '0', bottom: '0', right: '0', left: '0'}}></div>
                 </Link>
             </div>
             <div className={`menu-btn ${setClassMenu()}`} onClick={() => handlerClickMenu()} />

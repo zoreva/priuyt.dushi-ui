@@ -8,7 +8,6 @@ export const PoetryItem = ({id, title, poetryType, createDate, book}) => {
             <Column>{poetryType}</Column>
             <Column>{createDate}</Column>
             <Column>{book}</Column>
-            <Column>{`${createDate} Просмотров`}</Column>
         </Wrapper>
     );
 };

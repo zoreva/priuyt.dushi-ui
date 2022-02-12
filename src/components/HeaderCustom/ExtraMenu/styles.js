@@ -56,7 +56,7 @@ export const FavButton = styled.svg`
     }
 `;
 
-export const InstBtn = styled.div`
+export const InstBtn = styled.a`
     display: block;
 `;
 
